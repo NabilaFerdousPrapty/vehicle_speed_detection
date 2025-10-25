@@ -165,4 +165,106 @@ Overall, this experience strengthened our **technical expertise and professional
 - [Kaggle Animal Classification Dataset](https://www.kaggle.com/code/nabilaferdous/animal-10)
 - [HandWrittenDigitDataset](https://www.kaggle.com/datasets/nabilaferdous/testdataset)
 
+-
+
+## 🧑‍💻 How to Run the Project
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/vehicle-speed-detection.git
+cd vehicle-speed-detection
+```
+
+### 2️⃣ Create and Activate a Virtual Environment
+
+**Windows:**
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+**Mac/Linux:**
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 3️⃣ Install Required Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+> If you don’t have a `requirements.txt`, you can manually install:
+
+```bash
+pip install opencv-python torch torchvision numpy pandas matplotlib
+```
+
+### 4️⃣ Run the Main Script
+
+Run the Python file that starts detection and speed measurement:
+
+```bash
+python main.py
+```
+
+If your file is named differently (e.g., `vehicle_speed_detection.py`), use:
+
+```bash
+python vehicle_speed_detection.py
+```
+
+### 5️⃣ Optional: Test with a Sample Video
+
+You can place a video file (e.g., `traffic.mp4`) in the same folder and run:
+
+```bash
+python main.py --video traffic.mp4
+```
+
+---
+
+## 📂 Folder Structure
+
+```
+vehicle-speed-detection/
+│
+├── main.py
+├── yolov5/               # YOLO model files
+├── data/                 # Datasets (if any)
+├── utils/                # Helper functions
+├── requirements.txt
+└── README.md
+```
+
+## 🏁 Results
+
+- Model accuracy for handwritten digits: **Above 50%**
+- Real-time vehicle detection achieved stable **FPS and accuracy**
+- Successful alert generation for overspeeding vehicles with variable speed limits
+
+---
+
+## 🧠 Learning Outcomes
+
+- Strengthened understanding of **Python**, **Machine Learning**, and **Computer Vision**
+- Learned **data preprocessing**, **model training**, and **real-time inference**
+- Developed team collaboration and technical documentation skills
+
+---
+
+## 📍 Acknowledgment
+
+We sincerely thank **ATC Tech Ltd** for providing mentorship, resources, and industry exposure that allowed us to explore practical AI-driven projects.
+
+---
+
+## 🧑‍🏫 How to Contribute
+
+Feel free to fork this repository, open issues, or submit pull requests for improvements.
+
 ---
